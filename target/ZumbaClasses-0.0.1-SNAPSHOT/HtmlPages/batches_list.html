@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Batches List</title>
+</head>
+<body>
+    <h1>Batches</h1>
+    <a href="create_batch.html">Create New Batch</a>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Start Date</th>
+                <th>End Date</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Dynamic rows for each batch -->
+            <tr>
+                <td>1</td>
+                <td>Batch A</td>
+                <td>2023-01-01</td>
+                <td>2023-06-30</td>
+                <td>
+                    <a href="batch_detail.html?id=1">View</a>
+                    <a href="edit_batch.html?id=1">Edit</a>
+                    <a href="delete_batch.html?id=1">Delete</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

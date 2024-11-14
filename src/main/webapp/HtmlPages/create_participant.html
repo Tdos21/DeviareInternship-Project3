@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Participant</title>
+</head>
+<body>
+    <h1>Add New Participant</h1>
+    <form action="/create_participant" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="batch">Batch:</label>
+        <select id="batch" name="batch" required>
+            <option value="1">Batch A</option>
+            <option value="2">Batch B</option>
+            <!-- Add other batch options here -->
+        </select><br>
+
+        <button type="submit">Add Participant</button>
+    </form>
+</body>
+</html>
